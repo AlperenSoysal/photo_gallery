@@ -58,7 +58,7 @@ class CAppBar extends StatelessWidget implements PreferredSizeWidget {
         title,
         style: const TextStyle(
           color: AppColors.black,
-          fontSize: CSizes.normal,
+          fontSize: CSizes.larger,
           fontWeight: CWeights.normal,
         ),
       ),
