@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="079c08d7-5dba-4c64-b34d-f5bec4f10bb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/blocs/photo_gallery_blocs/photo_gallery_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/view/main_components.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/api_providers/photo_gallery_api_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/api_providers/photo_gallery_api_provider.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/view/pages/home_page/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/pages/home_page/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

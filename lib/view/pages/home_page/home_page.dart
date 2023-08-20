@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:photo_gallery_app/blocs/photo_gallery_blocs/photo_gallery_bloc.dart';
+import 'package:photo_gallery_app/view/main_components.dart';
 import '../../../models/data_models/gallery_image_model.dart';
 
 class PhotoGalleryHomePage extends StatelessWidget {
@@ -23,7 +24,9 @@ class PhotoGalleryHomePage extends StatelessWidget {
             },
           );
         } else if (state is PhotoGalleryErrorState) {
-          return Text(state.error);
+          return ErrorOccurredWidget(
+            reload: () => context.read<PhotoGalleryBloc>().add(FetchPhotoGalleryEvent()),
+          );
         } else {
           return const Center(
             child: CircularProgressIndicator(),
