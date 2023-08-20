@@ -16,5 +16,5 @@ Technologies
   - flutter_staggered_grid_view: ^0.7.0 for grid view of the images
   - Basic Material widgets for UI
 
-- [This is the source of app usage video](https://drive.google.com/file/d/1B_yJu46IvPJwdxAWzDXqtD1u6W7p7BqO/view?usp=sharing)
+- [This is the source of app apk](https://drive.google.com/file/d/1B_yJu46IvPJwdxAWzDXqtD1u6W7p7BqO/view?usp=sharing)
 
