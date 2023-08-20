@@ -7,11 +7,11 @@ class HomeTabs extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      appBar: CAppBar(
+    return Scaffold(
+      appBar: const CAppBar(
         title: "Gallery",
       ),
-      bottomNavigationBar: CButtonNavigationBar(
+      bottomNavigationBar: const CButtonNavigationBar(
         items: [
           CBottomNavigationBarItem(icon: Icons.photo_outlined),
         ],
