@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:photo_gallery_app/models/api_providers/photo_gallery_api_provider.dart';
 import 'package:photo_gallery_app/view/theme/font_styles.dart';
 
 class PhotoGalleryHomePage extends StatelessWidget {
