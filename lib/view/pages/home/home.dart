@@ -21,7 +21,7 @@ class HomeTabs extends StatelessWidget {
       ),
       body: BlocProvider(
         create: (BuildContext context) => PhotoGalleryBloc()..add(FetchPhotoGalleryEvent()),
-        child: PhotoGalleryHomePage(),
+        child: const PhotoGalleryHomePage(),
       ),
     );
   }
