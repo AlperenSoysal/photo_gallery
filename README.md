@@ -22,7 +22,4 @@ Technologies
   - Project made with MVC pattern for fetching and showing the datas just because it's simple functionality
 
 - [This is the source of app apk](https://drive.google.com/file/d/1B_yJu46IvPJwdxAWzDXqtD1u6W7p7BqO/view?usp=sharing)
-- App home page:
--     
-(https://github.com/AlperenSoysal/photo_gallery/assets/34598229/a45a3837-397d-4a5d-8835-4349b911d80e)
 
