@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="079c08d7-5dba-4c64-b34d-f5bec4f10bb9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/view/pages/home/home_components.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/pages/home/home_components.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/globals/api_implementations.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/generic_models/generic_api_providers/generic_photo_gallery_api_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/generic_models/generic_data_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/blocs/photo_gallery_blocs/photo_gallery_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/photo_gallery_blocs/photo_gallery_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/api_providers/photo_gallery_api_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/api_providers/photo_gallery_api_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/data_models/gallery_image_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/data_models/gallery_image_model.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />

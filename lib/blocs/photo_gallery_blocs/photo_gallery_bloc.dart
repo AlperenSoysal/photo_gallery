@@ -1,6 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:photo_gallery_app/models/api_providers/photo_gallery_api_provider.dart';
-
+import '../../globals/api_implementations.dart';
 import '../../models/data_models/gallery_image_model.dart';
 
 abstract class AbstractPhotoGalleryState {
@@ -40,7 +39,7 @@ class PhotoGalleryBloc extends Bloc<AbstractPhotoGalleryEvent, AbstractPhotoGall
       emitter(
         const PhotoGalleryLoadingState(),
       );
-      final List<Map<String, dynamic>>? postsJson = await PhotoGalleryApiProvider.fetchPhotoGallery();
+      final List<Map<String, dynamic>>? postsJson = await photoGalleryApiProvider.fetchPhotoGallery();
       if (postsJson == null) {
         emitter(PhotoGalleryErrorState("Some error from api"));
       } else {

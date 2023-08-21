@@ -1,7 +1,10 @@
 import 'package:dio/dio.dart';
 
-class PhotoGalleryApiProvider {
-  static Future<List<Map<String, dynamic>>?> fetchPhotoGallery() async {
+import '../generic_models/generic_api_providers/generic_photo_gallery_api_provider.dart';
+
+class PhotoGalleryApiProvider implements GenericPhotoGalleryApiProvider {
+  @override
+  Future<List<Map<String, dynamic>>?> fetchPhotoGallery() async {
     Dio dio = Dio();
     var response = await dio.get('https://api.thecatapi.com/v1/images/search?limit=80&mime_types=&order=Random&size=small&page=3&sub_id=demo-ce06ee');
 
